@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme {
+  --font-satoshi: 'Satoshi-Variable', 'Satoshi-Regular', 'Satoshi-Light', 'Satoshi-Medium', 'Satoshi-Bold', 'Satoshi-Black', sans-serif;
+}
+
+* {
+  @apply font-satoshi
+}
